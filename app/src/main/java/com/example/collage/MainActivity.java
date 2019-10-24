@@ -167,9 +167,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Image's list index used to fetch path
         String path = mImageFilePaths.get(index);
 
-        if (mCurrentImagePath != null && !mCurrentImagePath.isEmpty()) {
+        if (path != null && !path.isEmpty()) {
             Picasso.get()
-                    .load(new File(mCurrentImagePath))
+                    .load(new File(path))
                     .error(android.R.drawable.stat_notify_error) // built-in error icon
                     .fit()
                     .centerCrop() // completely fills image to screen size
