@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private ImageButton mImageButton1, mImageButton2, mImageButton3, mImageButton4;
 
-    // Store image buttons and filepaths in lists
+    // Store image buttons and file paths in lists
     private List<ImageButton> mImageButtons;
     private ArrayList<String> mImageFilePaths;
 
